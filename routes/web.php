@@ -37,16 +37,16 @@ Route::get('/redirect', function () {
     return redirect('http://localhost:8082/oauth/authorize?'.$query);
 });
 
-Route::get('/auth/callback', function (Request $request) {
+Route::get('/auth/callback', function () {
     $http = new GuzzleHttp\Client;
 
-    $response = $http->post('http://localhost:8083/oauth/token', [
+    $response = $http->post('http://localhost:8082/oauth/token', [
         'form_params' => [
             'grant_type' => 'authorization_code',
             'client_id' => '1',
             'client_secret' => 'Y4QdDIjuMpUEVGkuMXOtEt4zbhyQHDH0E3qmHQd5',
             'redirect_uri' => 'http://localhost:8083/auth/callback',
-            'code' => $request->code,
+            'code' => Request::input('code'),
         ],
     ]);
 
