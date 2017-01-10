@@ -8,63 +8,140 @@
     <title>Document</title>
 </head>
 <body>
+
+
 <style>
+	body{
+		margin: 0px;
+		margin-bottom: 50px;
 
-	*{
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-	#bloc1
-	{
-		position: relative;
-		max-width: 600px;
-		margin: 20px auto;
-		border:solid green 10px;
-		box-sizing: border-box;
-	}
-	#bloc2
-	{
-		position: relative;
-		top: -50px;
-		max-width: 600px;
-		margin: auto;
-		padding: 50px;
-		border:solid darkslateblue 10px;
-		box-sizing: border-box;
+
 	}
 
-	#bloc3
-	{
+	#nav{
 		position: absolute;
-		bottom:0;
-		right: 0;
-		margin: 20px auto;
-		border:solid blue 10px;
-		box-sizing: border-box;
-		width:50px;
+		left:0px;
+		max-width: 200px;
+		border: solid darkgrey 5px;
+
+	}
+	#section{
+		border:solid green 2px;
+		margin-left: 200px;
+		padding: 20px;
+	}
+
+	#footer{
+		position: fixed;
+		border:solid blue 2px;
+		bottom: 0px;
+		height:100px;
+		max-width: 100%;
+		background-color: cornflowerblue;
+	}
+	#container{
+		position: relative;
 	}
 
 </style>
+<div id="container">
+<div id="nav">
+	<ul>
+		<li>link1</li>
+		<li>link2</li>
+		<li>link3</li>
+		<li>About</li>
+		<li>Contact</li>
 
-<div id="bloc1">
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsam maxime qui rem. Aliquam blanditiis distinctio est explicabo, modi quas quibusdam quod rerum sequi velit. Dolore ducimus et iure molestiae possimus similique voluptatibus. Amet dolores maxime molestiae quibusdam repellendus saepe temporibus. Ab ad aspernatur commodi consequatur cum deleniti dolorem eos error esse excepturi exercitationem facere hic illo ipsum laudantium magni nemo nulla omnis optio perferendis provident reprehenderit sint soluta tempora, ut veritatis voluptatem! Aliquam, aut beatae commodi culpa cupiditate dignissimos ea eaque earum id itaque laboriosam maiores optio perferendis quod, rem reprehenderit veritatis. Ex exercitationem, fugiat impedit ipsam nihil voluptate!
-
+	</ul>
 </div>
 
-<div id="bloc2">
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consectetur ea eos eveniet facere in magnam quas quo voluptates voluptatibus. Deleniti deserunt ea eligendi, error facere ipsum libero magnam natus nesciunt quia. Accusamus consectetur deleniti eos in nobis odit quasi quidem quisquam ut vel? Dolores facere inventore obcaecati quibusdam voluptatibus.
-	<div id="bloc3">
-
-		Lorem ipsum
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci beatae culpa
+		facilis id, ipsa iste iusto magnam minus nam officia provident quod ratione totam voluptas voluptate, voluptatem
+		voluptatibus! A amet assumenda beatae corporis error et fugiat, harum inventore iure libero mollitia nesciunt
+		omnis perferendis, rerum ut. Ex, nihil.
 	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa cumque deserunt eveniet fuga
+		fugiat iste iure maiores non omnis, pariatur sint temporibus tenetur ullam.
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis consectetur explicabo
+		libero minima minus nulla officia, quasi sed voluptates. Dolor ducimus ea, eius est fugiat id ipsa maiores modi
+		nihil officiis pariatur perferendis perspiciatis quaerat reiciendis repellendus reprehenderit repudiandae, totam
+		unde vel velit? Alias esse hic magni nisi. Iure minima porro ullam? A aliquid, culpa eum hic laborum mollitia
+		nemo nostrum odio quae sequi? Ex excepturi expedita fugit mollitia odio quis soluta, vel. Accusamus alias
+		aliquid asperiores blanditiis consequuntur cum ducimus error facere ipsum laborum, libero minima, molestias
+		officia optio praesentium quaerat quibusdam quis ratione repellat totam voluptate voluptatibus!
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci beatae culpa
+		facilis id, ipsa iste iusto magnam minus nam officia provident quod ratione totam voluptas voluptate, voluptatem
+		voluptatibus! A amet assumenda beatae corporis error et fugiat, harum inventore iure libero mollitia nesciunt
+		omnis perferendis, rerum ut. Ex, nihil.
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa cumque deserunt eveniet fuga
+		fugiat iste iure maiores non omnis, pariatur sint temporibus tenetur ullam.
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis consectetur explicabo
+		libero minima minus nulla officia, quasi sed voluptates. Dolor ducimus ea, eius est fugiat id ipsa maiores modi
+		nihil officiis pariatur perferendis perspiciatis quaerat reiciendis repellendus reprehenderit repudiandae, totam
+		unde vel velit? Alias esse hic magni nisi. Iure minima porro ullam? A aliquid, culpa eum hic laborum mollitia
+		nemo nostrum odio quae sequi? Ex excepturi expedita fugit mollitia odio quis soluta, vel. Accusamus alias
+		aliquid asperiores blanditiis consequuntur cum ducimus error facere ipsum laborum, libero minima, molestias
+		officia optio praesentium quaerat quibusdam quis ratione repellat totam voluptate voluptatibus!
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci beatae culpa
+		facilis id, ipsa iste iusto magnam minus nam officia provident quod ratione totam voluptas voluptate, voluptatem
+		voluptatibus! A amet assumenda beatae corporis error et fugiat, harum inventore iure libero mollitia nesciunt
+		omnis perferendis, rerum ut. Ex, nihil.
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa cumque deserunt eveniet fuga
+		fugiat iste iure maiores non omnis, pariatur sint temporibus tenetur ullam.
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis consectetur explicabo
+		libero minima minus nulla officia, quasi sed voluptates. Dolor ducimus ea, eius est fugiat id ipsa maiores modi
+		nihil officiis pariatur perferendis perspiciatis quaerat reiciendis repellendus reprehenderit repudiandae, totam
+		unde vel velit? Alias esse hic magni nisi. Iure minima porro ullam? A aliquid, culpa eum hic laborum mollitia
+		nemo nostrum odio quae sequi? Ex excepturi expedita fugit mollitia odio quis soluta, vel. Accusamus alias
+		aliquid asperiores blanditiis consequuntur cum ducimus error facere ipsum laborum, libero minima, molestias
+		officia optio praesentium quaerat quibusdam quis ratione repellat totam voluptate voluptatibus!
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci beatae culpa
+		facilis id, ipsa iste iusto magnam minus nam officia provident quod ratione totam voluptas voluptate, voluptatem
+		voluptatibus! A amet assumenda beatae corporis error et fugiat, harum inventore iure libero mollitia nesciunt
+		omnis perferendis, rerum ut. Ex, nihil.
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa cumque deserunt eveniet fuga
+		fugiat iste iure maiores non omnis, pariatur sint temporibus tenetur ullam.
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis consectetur explicabo
+		libero minima minus nulla officia, quasi sed voluptates. Dolor ducimus ea, eius est fugiat id ipsa maiores modi
+		nihil officiis pariatur perferendis perspiciatis quaerat reiciendis repellendus reprehenderit repudiandae, totam
+		unde vel velit? Alias esse hic magni nisi. Iure minima porro ullam? A aliquid, culpa eum hic laborum mollitia
+		nemo nostrum odio quae sequi? Ex excepturi expedita fugit mollitia odio quis soluta, vel. Accusamus alias
+		aliquid asperiores blanditiis consequuntur cum ducimus error facere ipsum laborum, libero minima, molestias
+		officia optio praesentium quaerat quibusdam quis ratione repellat totam voluptate voluptatibus!
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci beatae culpa
+		facilis id, ipsa iste iusto magnam minus nam officia provident quod ratione totam voluptas voluptate, voluptatem
+		voluptatibus! A amet assumenda beatae corporis error et fugiat, harum inventore iure libero mollitia nesciunt
+		omnis perferendis, rerum ut. Ex, nihil.
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa cumque deserunt eveniet fuga
+		fugiat iste iure maiores non omnis, pariatur sint temporibus tenetur ullam.
+	</div>
+	<div id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis consectetur explicabo
+		libero minima minus nulla officia, quasi sed voluptates. Dolor ducimus ea, eius est fugiat id ipsa maiores modi
+		nihil officiis pariatur perferendis perspiciatis quaerat reiciendis repellendus reprehenderit repudiandae, totam
+		unde vel velit? Alias esse hic magni nisi. Iure minima porro ullam? A aliquid, culpa eum hic laborum mollitia
+		nemo nostrum odio quae sequi? Ex excepturi expedita fugit mollitia odio quis soluta, vel. Accusamus alias
+		aliquid asperiores blanditiis consequuntur cum ducimus error facere ipsum laborum, libero minima, molestias
+		officia optio praesentium quaerat quibusdam quis ratione repellat totam voluptate voluptatibus!
+	</div>
+
+
+	<div id="footer">
+	@copyright Klavius inc.
 </div>
-
-
-
-
+</div>
 
 </body>
 </html>
