@@ -9,18 +9,27 @@
 </head>
 <body>
 <style>
+
+	*{
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
 	#bloc1
 	{
 		max-width: 600px;
-		margin: auto;
+		margin: 20px auto;
+		border:solid green 10px;
+		box-sizing: border-box;
+
 	}
 	#bloc2
 	{
 		max-width: 600px;
 		margin: auto;
 		padding: 50px;
-		border-width: 10px;
-		border:solid;
+		border:solid darkslateblue 10px;
+		box-sizing: border-box;
 
 	}
 </style>
