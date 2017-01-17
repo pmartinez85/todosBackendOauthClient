@@ -22,6 +22,8 @@ Route::group(['middleware' => 'auth'], function () {
 
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
+    Route::get('csstables', 'CsstablesController@index')->name('csstables');
+
     Route::get('float', 'FloatController@index')->name('float');
 
     Route::get('box', 'BoxController@index')->name('box');
