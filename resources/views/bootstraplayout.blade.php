@@ -42,7 +42,7 @@
 		<div class="col-md-5 debug">Column 2</div>
 		<div class="col-md-5 debug">Column 3</div>
 	</div>
-	
+
 </div>
 
 

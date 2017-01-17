@@ -44,18 +44,31 @@ Route::get('/redirect', function () {
     $query = http_build_query([
         //dades de l'aplicació Client
         'client_id' => '2',
-        'redirect_uri' => 'http://oauthclient.dev:8081/auth/callback',
+        'redirect_uri' => 'http://oauthclient.dev:8080/auth/callback',
         'response_type' => 'code',
         'scope' => '',  //scope son els permisos que li donem al usuari...de moment va buit
     ]);
             //Aqui va la URL del nostre servidor(TodosBackend)
-    return redirect('http://localhost:8082/oauth/authorize?'.$query);
+    return redirect('http://localhost:8081/oauth/authorize?'.$query);
+});
+
+Route::get('/redirect_implicit', function () {
+    $query = http_build_query([
+        'client_id' => '2',
+        'redirect_uri' => 'http://localhost:8080/auth/callback', //encara no l'hem fet
+        'response_type' => 'token',
+        'scope' => '',
+    ]);
+
+    return redirect('http://todos.dev:8080/oauth/authorize?'.$query);
+
 });
 
 Route::get('/auth/callback', function () {
     $http = new GuzzleHttp\Client;
 
-    $response = $http->post('http://localhost:8082/oauth/token', [
+    $response = $http->post('http://localhost:8080/oauth/token', [
+    $response = $http->post('http://localhost:8080/oauth/token', [
         'form_params' => [
             'grant_type' => 'authorization_code',
             'client_id' => '2',
@@ -69,7 +82,7 @@ Route::get('/auth/callback', function () {
     $access_token = $json["access_token"];
 
     //TODO guardar access_token a base de dades
-    $response2 = $http->get('http://localhost:8082/api/v1/task', [
+    $response2 = $http->get('http://localhost:8080/api/v1/task', [
         'headers' => [
             'X-Requested-With' => 'XMLHttpRequest',
             'Authorization' => 'Bearer ' . $access_token
@@ -78,3 +91,4 @@ Route::get('/auth/callback', function () {
     $json2 = json_decode((string) $response2->getBody(), true);
     dd($json2);
 });
+
