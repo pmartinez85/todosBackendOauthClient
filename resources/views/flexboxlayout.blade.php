@@ -10,11 +10,21 @@
 
 <style>
 
-	.article {
-		background-color: #636b6f;
+	.header{
+		background-color: indianred;
+		padding:10px;
+		margin: 10px;
 	}
 
-	
+	.article {
+		display: flex;
+		background-color: #636b6f;
+		padding:10px;
+		margin: 10px;
+
+	}
+
+
 </style>
 
 <body>
