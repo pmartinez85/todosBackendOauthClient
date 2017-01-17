@@ -7,12 +7,44 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 </head>
+<style>
+	html {
+		font-family: "Arial Black", arial-black;
+	}
+
+	form{
+		display: table;
+	}
+	form div{
+		display: table-row;
+	}
+	form label , form input {
+		display: table-cell;
+	}
+
+	form label{
+		text-align: right;
+	}
+	
+</style>
 <body>
 <h1>Dades personals</h1>
 <form action="">
-	First name: <input type="text" name="name">
-	First lastname: <input type="text" name="lastname">
-	First edat: <input type="text" name="edat">
+	<div>
+		<label for="name">First name: </label>
+		<input type="text" name="name">
+	</div>
+
+	<div>
+		<label for="lastname">Lastname: </label>
+		<input type="text" name="lastname">
+	</div>
+	<div>
+		<label for="age">Age: </label>
+		<input type="text" name="age">
+	</div>
+
+	
 </form>
 
 </body>
