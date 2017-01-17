@@ -22,6 +22,8 @@ Route::group(['middleware' => 'auth'], function () {
 
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
+    Route::get('implicit', 'ImplicitController@index')->name('implicit');
+
     Route::get('bootstraplayout', 'BootstraplayoutController@index')->name('bootstraplayout');
 
     Route::get('flexboxlayout2', 'Flexboxlayout2Controller@index')->name('flexboxlayout2');
@@ -44,18 +46,18 @@ Route::get('/redirect', function () {
     $query = http_build_query([
         //dades de l'aplicació Client
         'client_id' => '2',
-        'redirect_uri' => 'http://oauthclient.dev:8080/auth/callback',
+        'redirect_uri' => 'http://oauthclient.dev:8081/auth/callback',
         'response_type' => 'code',
         'scope' => '',  //scope son els permisos que li donem al usuari...de moment va buit
     ]);
             //Aqui va la URL del nostre servidor(TodosBackend)
-    return redirect('http://localhost:8081/oauth/authorize?'.$query);
+    return redirect('http://todos.dev:8080/oauth/authorize?'.$query);
 });
 
 Route::get('/redirect_implicit', function () {
     $query = http_build_query([
-        'client_id' => '2',
-        'redirect_uri' => 'http://localhost:8080/auth/callback', //encara no l'hem fet
+        'client_id' => '1',
+        'redirect_uri' => 'http://localhost:8082/implicit', //encara no l'hem fet
         'response_type' => 'token',
         'scope' => '',
     ]);
@@ -67,13 +69,12 @@ Route::get('/redirect_implicit', function () {
 Route::get('/auth/callback', function () {
     $http = new GuzzleHttp\Client;
 
-    $response = $http->post('http://localhost:8080/oauth/token', [
-    $response = $http->post('http://localhost:8080/oauth/token', [
+    $response = $http->post('http://localhost:8081/oauth/token', [
         'form_params' => [
             'grant_type' => 'authorization_code',
             'client_id' => '2',
             'client_secret' => 'JkjJBmF8bHDugbNCLl0qJRI9mK7yTwX6rs40lMnO',
-            'redirect_uri' => 'http://oauthclient.dev:8081/auth/callback',
+            'redirect_uri' => 'http://oauthclient.dev:8082/auth/callback',
             'code' => Request::input('code'),
         ],
     ]);

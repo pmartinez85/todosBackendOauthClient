@@ -13,17 +13,22 @@ class TasksController extends Controller
      */
     public function index()
     {
-        $access_token = null;
-        try{
-            $access_token = AccesToken:where('user_id', 1)->token;
-        } catch (\Exception) {
-            //Codi per obtenir el token
-            //redirect to redirect
-        }
+        $access_token = "TODO";
         $data = [
-            "acces_token" => $access_token
+            "access_token" => $access_token
         ];
         return view('tasks',$data);
+//        $access_token = null;
+//        try{
+//            $access_token = AccesToken:where('user_id', 1)->token;
+//        } catch (\Exception e) {
+//            //Codi per obtenir el token
+//            //redirect to redirect
+//        }
+//        $data = [
+//            "acces_token" => $access_token
+//        ];
+
     }
 
 }
