@@ -14,18 +14,40 @@
 		background-color: indianred;
 		padding:10px;
 		margin: 10px;
+		flex: 100%;
 	}
 
-	.article {
-		display: flex;
-		background-color: #636b6f;
-		padding:10px;
-		margin: 10px;
+	article {
+		min-width: 200px;
 
 	}
 	.container {
 		display: flex;
-		flex-direction: column;
+		overflow: auto;
+	}
+
+	.clearfix {
+		overflow: auto;
+	}
+	section{
+		display: flex;
+		flex-direction: row;
+	}
+	.flex-column {
+		display: flex;
+		flex-direction: row;
+	}
+
+	nav{
+		background-color: greenyellow;
+		left:0px;
+		width: 200px;
+	}
+	footer{
+		border:solid blue 1px;
+		bottom: 0px;
+		height:100px;
+		background-color: cornflowerblue;
 	}
 
 
@@ -33,15 +55,38 @@
 
 <body>
 
-
-<div class="header">Flebox Layout Example</div>
-<div class="container">
-	<div class="article">Lorem ipsum</div>
-	<div class="article">Lorem ipsum</div>
-	<div class="article">Lorem ipsum</div>
-	<div class="article">Lorem ipsum</div>
-	<div class="article">Lorem ipsum</div>
-	<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
+<div class="header">
+	<h1>Flebox Layout Example</h1>
 </div>
+
+<section>
+
+	<nav>
+		<ul>
+			<li>link1</li>
+			<li>link2</li>
+			<li>link3</li>
+			<li>About</li>
+			<li>Contact</li>
+
+		</ul>
+	</nav>
+<section class="flex-column">
+	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+
+</section>
+</section>
+
+</div>
+
+<footer>
+	@copyright Klavius inc.
+</footer>
+
 </body>
 </html>
