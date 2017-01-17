@@ -14,11 +14,15 @@
 		margin: 0 auto;
 	}
 
-	p {
-		line-height: 1.5px;
-		word-spacing: inherit;
-		
+	p   {
+		line-height: 1.5;
+		word-spacing: 0.1rem;
+
 	}
+
+    img {
+        float : left;
+    }
 
 </style>
 <body>
