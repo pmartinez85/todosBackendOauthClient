@@ -22,18 +22,18 @@
 		position: absolute;
 		left:0px;
 		max-width: 200px;
-		border: solid darkgrey 5px;
+		border: solid darkgrey 2px;
 
 	}
 	#section{
-		border:solid green 2px;
+		border:solid green 1px;
 		margin-left: 200px;
 		padding: 20px;
 	}
 
 	#footer{
 		position: fixed;
-		border:solid blue 2px;
+		border:solid blue 1px;
 		bottom: 0px;
 		height:100px;
 		max-width: 100%;
