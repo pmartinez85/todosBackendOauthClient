@@ -19,7 +19,8 @@
 	}
 
 	article {
-		min-width: 200px;
+		background-color: rebeccapurple;
+		flex: 20%;
 
 	}
 	.container {
@@ -32,9 +33,8 @@
 	}
 	section{
 		display: flex;
-		flex-direction: row;
 	}
-	.flex-wrap {
+	.flex-row {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -73,7 +73,18 @@
 
 		</ul>
 	</nav>
-	<section class="flex-wrap">
+	<section class="flex-row">
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
 		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
 		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
 		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>

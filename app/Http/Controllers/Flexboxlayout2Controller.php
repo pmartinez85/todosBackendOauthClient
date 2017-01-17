@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\BaseController;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Flexboxlayout2Controller extends BaseController
+class Flexboxlayout2Controller extends Controller
 {
     //
     /**
