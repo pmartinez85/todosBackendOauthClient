@@ -35,27 +35,12 @@
 
 <div class="header">Flebox Layout Example</div>
 <div class="container">
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
-<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
+	<div class="article">Lorem ipsum</div>
+	<div class="article">Lorem ipsum</div>
+	<div class="article">Lorem ipsum</div>
+	<div class="article">Lorem ipsum</div>
+	<div class="article">Lorem ipsum</div>
+	<div class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor ex saepe sequi! Cupiditate ea inventore labore obcaecati quae quia?</div>
 </div>
 </body>
 </html>
