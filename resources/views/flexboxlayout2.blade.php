@@ -8,6 +8,7 @@
 	<title>Document</title>
 </head>
 
+
 <style>
 
 	.header{
@@ -72,15 +73,15 @@
 
 		</ul>
 	</nav>
-<section class="flex-wrap">
-	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
-	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
-	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
-	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
-	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
-	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+	<section class="flex-wrap">
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, in!</article>
 
-</section>
+	</section>
 </section>
 
 </div>

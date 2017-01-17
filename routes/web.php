@@ -22,6 +22,8 @@ Route::group(['middleware' => 'auth'], function () {
 
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
+    Route::get('flexboxlayout2', 'Flexboxlayout2Controller@index')->name('flexboxlayout2');
+
     Route::get('flexboxlayout', 'FlexboxlayoutController@index')->name('flexboxlayout');
 
     Route::get('csstables', 'CsstablesController@index')->name('csstables');
