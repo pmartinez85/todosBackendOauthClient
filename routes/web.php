@@ -74,7 +74,7 @@ Route::get('/auth/callback', function () {
             'grant_type' => 'authorization_code',
             'client_id' => '2',
             'client_secret' => 'JkjJBmF8bHDugbNCLl0qJRI9mK7yTwX6rs40lMnO',
-            'redirect_uri' => 'http://oauthclient.dev:8082/auth/callback',
+            'redirect_uri' => 'http://oauthclient.dev:8081/auth/callback',
             'code' => Request::input('code'),
         ],
     ]);
